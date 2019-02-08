@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "28905",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/build/.gitignore",
+		"oF": 1
+		},
 	"/bower.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -597,6 +604,24 @@
 		"oA": 1,
 		"oAP": "/build/build",
 		"oF": 0
+		},
+	"/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "/build/README.html",
+		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"/source/about.kit": {
 		"cB": 0,
@@ -1377,11 +1402,11 @@
 	},
 "projectAttributes": {
 	"creationDate": 566169331.75950396,
-	"displayValue": "code-and-crown",
+	"displayValue": "codeandcrown",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-archer",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 571347538.60888004
+	"lastBuiltDate": 571353782.45169604
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
