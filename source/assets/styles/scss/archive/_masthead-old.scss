@@ -1,0 +1,118 @@
+// masthead
+
+.masthead{
+    display: flex;
+    padding: 0 rem(32px);
+
+    @media (max-width: 460px){
+        flex-direction: column;
+        align-items: center;
+        padding: 0 rem(16px);
+    }
+
+}
+
+// Logo
+.masthead-logo{
+    flex: 0 0 auto;
+    margin: 0;
+}
+
+.masthead-logo_link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.masthead-logo_crown{
+    width: rem(50px);
+    height: rem(40px);
+    margin-right: rem(16px);
+}
+
+.masthead-logo_title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: rem(19px);
+    color: $grey-800;
+    letter-spacing: 0;
+    line-height: rem(20px);
+    display: block;
+}
+
+// Main Nav
+.masthead-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: rem(320px);
+    margin-left: 8%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    font-size: rem(12px);
+    line-height: rem(16px);
+    color: $grey-600;
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+
+    // @media (max-width: 480px){
+    //     margin-left: rem(24px);
+    // }
+
+    @media (max-width: 460px){
+        width: 70%;
+        margin-left: 0;
+        margin-top: rem(24px);
+
+    }
+
+    li{
+        display: flex;
+        // flex: 1 1 auto;
+        // margin: 0 rem(8px);
+    }
+
+    a:link, a:visited{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: flex-end;
+        position: relative;
+        min-width: rem(64px);
+        padding-bottom: rem(8px);
+        text-decoration: none;
+        letter-spacing: rem(2px);
+        color: $grey-600;
+        transition: color 0.36s ease-in-out;
+    }
+    a:after{
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: rem(1px);
+        background-color: transparent;
+        transition: background-color 0.36s ease-in-out;
+    }
+
+    a:hover{
+        color: $nav-active;
+
+        &:after{
+            background: $nav-active;
+
+        }
+    }
+
+    li.is-active a{
+        font-weight: 600;
+        color: $nav-active;
+
+        &:after{
+            background: $nav-active;
+        }
+    }
+}

@@ -1,0 +1,148 @@
+<!-- TODO: Create "head" include for all pages - load flickity conditionally -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code &amp; Crown</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,200i,300,300i|Source+Sans+Pro:400,400i,600,600i" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/css/main.css" />
+</head>
+<body>
+    <header>
+            <nav class="masthead">
+                <h1 class="masthead-logo">
+                    <a href="/" class="masthead-logo_link">
+                        <svg class="masthead-logo_crown" viewBox="0 0 80 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <defs>
+                                <linearGradient x1="50%" y1="99.9999654%" x2="50%" y2="9.23845136e-05%" id="linearGradient-1">
+                                    <stop stop-color="#4B7FB8" offset="0%"></stop>
+                                    <stop stop-color="#4F82BA" offset="32.98%"></stop>
+                                    <stop stop-color="#5C8BBE" offset="67.08%"></stop>
+                                    <stop stop-color="#6F99C6" offset="100%"></stop>
+                                </linearGradient>
+                                <linearGradient x1="50%" y1="100%" x2="50%" y2="2.30961817e-05%" id="linearGradient-2">
+                                    <stop stop-color="#315379" offset="0%"></stop>
+                                    <stop stop-color="#33567D" offset="24.73%"></stop>
+                                    <stop stop-color="#385F8A" offset="50.34%"></stop>
+                                    <stop stop-color="#406D9E" offset="76.27%"></stop>
+                                    <stop stop-color="#4B7FB8" offset="100%"></stop>
+                                </linearGradient>
+                                <linearGradient x1="50%" y1="100.000023%" x2="50%" y2="0.000103932698%" id="linearGradient-3">
+                                    <stop stop-color="#233E5E" offset="0%"></stop>
+                                    <stop stop-color="#254162" offset="38.24%"></stop>
+                                    <stop stop-color="#2C4B6F" offset="77.79%"></stop>
+                                    <stop stop-color="#315379" offset="100%"></stop>
+                                </linearGradient>
+                            </defs>
+                            <g class="masthead-logo_crown-group">
+                                <polygon class="masthead-logo_crown-left" fill="url(#linearGradient-1)" points="0 0 64 64 0 64"></polygon>
+                                <g class="masthead-logo_crown-middle" fill="url(#linearGradient-2)">
+                                    <path d="M40,0 L80,64 L40,64 L0,64 L40,0 Z" id="Combined-Shape"></path>
+                                </g>
+                                <polygon class="masthead-logo_crown-right" fill="url(#linearGradient-3)" points="80 0 16 64 80 64"></polygon>
+                            </g>
+                        </svg>
+                        <span class="masthead-logo_title">Code &amp; Crown</span>
+                    </a>
+                </h1>
+                <ul class="masthead-nav">
+                    <!--  TODO: Switch to absolute path upon publish -->
+                    <li class="masthead-nav_home is-active"><a href="http://192.168.1.106:5757/index.html">Home</a></li>
+                    <li class="masthead-nav_about "><a href="http://192.168.1.106:5757/about.html">About</a></li>
+                    <li class="masthead-nav_learning "><a href="http://192.168.1.106:5757/learning.html">Learning</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+    <main>
+        <section class="callout callout--facts">
+            <!-- TODO: Add Facts content to JSON -->
+            <h2 class="callout_facts-content">
+                Hello, I'm Andrew, a Senior UX Designer at Velir, Inc.
+            </h2>
+            <button class="callout_facts-control">
+                Want another fun fact?
+            </button>
+        </section>
+        <section class="callout callout--work">
+            <h2 class="callout_heading">Selected Work</h2>
+            <a href="./kauffman.html" class="project project--currents">
+                <figure class="project_figure project_figure--reverse">
+                    <figcaption class="project_content">
+                        <h3 class="project_title">Currents Redesign</h3>
+                        <h4 class="project_client">The Kauffman Foundation</h4>
+                        <p class="project_description">How might you organize and promote browsing across a laundry-list of content types, all while allowing for strong, visual hiearchy and aesthetic interest? We Focused on the shared properties of each type and choose a design pattern that could be as varied as the content itself: The Card Pattern.</p>
+                    </figcaption>
+                    <img class="project_thumbnail" src="/assets/images/homepage/currents_project_card.svg" alt="Decorative thumbnail for the project Currents Redesign for The Kuaffman Foundation">
+                </figure>
+            </a>
+            <a href="./rwjf.html" class="project project--explorer">
+                <figure class="project_figure">
+                    <figcaption class="project_content">
+                        <h3 class="project_title">Grants Explorer</h3>
+                        <h4 class="project_client">Robert Wood Johnson Foundation</h4>
+                        <p class="project_description">Brining together data-visualizations, page-performant browsing and searching along with a renewed focus on grantees to increase awareness of RJWF’s long history of grant-making and demonstrate its positive impact.</p>
+                    </figcaption>
+                    <img class="project_thumbnail" src="assets/images/homepage/grants_explorer_project_card.svg" alt="Decorative thumbnail for the project Currents Redesign for The Kuaffman Foundation">
+                </figure>
+            </a>
+        </section>
+        <section class="callout callout--clients">
+            <h2 class="callout_heading">Happy Clients</h2>
+            <div class="clients">
+                <a href="" class="clients_link">
+                    <figure class="clients_item">
+                        <figcaption class="clients_name">
+                            <p>The American Association of Retired Persons (AARP)</p>
+                        </figcaption>
+                        <img class="clients_logo" src="./assets/images/homepage/client_aarp_logo.svg" alt="The American Association of Retired Persons logo" >
+                    </figure>
+                </a>
+                <a href="" class="clients_link">
+                    <figure class="clients_item">
+                        <figcaption class="clients_name">
+                            <p>The Brookings Institute</p>
+                        </figcaption>
+                        <img class="clients_logo" src="./assets/images/homepage/client_brookings_logo.svg" alt="The Brookings Institute logo" >
+                    </figure>
+                </a>
+                <a href="" class="clients_link">
+                    <figure class="clients_item">
+                        <figcaption class="clients_name">
+                            <p>The Bill &amp; Melinda Gates Foundation</p>
+                        </figcaption>
+                        <img class="clients_logo" src="./assets/images/homepage/client_gates_foundation_logo.svg" alt="The Bill &amp; Melinda Gates Foundation logo" >
+                    </figure>
+                </a>
+                <a href="" class="clients_link">
+                    <figure class="clients_item">
+                        <figcaption class="clients_name">
+                            <p>Educause</p>
+                        </figcaption>
+                        <img class="clients_logo" src="./assets/images/homepage/client_educause_logo.svg" alt="The Educause logo" >
+                    </figure>
+                </a>
+                <a href="" class="clients_link">
+                    <figure class="clients_item">
+                        <figcaption class="clients_name">
+                            <p>The Ewing Marion Kauffman Foundation</p>
+                        </figcaption>
+                        <img class="clients_logo" src="./assets/images/homepage/client_kauffman_logo.svg" alt="The Kauffman Foundation logo" >
+                    </figure>
+                </a>
+                <a href="" class="clients_link">
+                    <figure class="clients_item">
+                        <figcaption class="clients_name">
+                            <p>The Robert Wood Johnson Foundation (RWJF)</p>
+                        </figcaption>
+                        <img class="clients_logo" src="./assets/images/homepage/client_rwjf_logo.svg" alt="The RWJF logo" >
+                    </figure>
+                </a>
+            </div>
+        </section>
+    </main>
+    <script type="text/javascript" src="/assets/scripts/facts.js"></script>
+</body>
+</html>

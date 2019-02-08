@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="298" height="339" viewBox="0 0 298 339">
+  <defs>
+    <filter id="a" width="109.6%" height="108.4%" x="-4.8%" y="-4.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.619607843 0 0 0 0 0.619607843 0 0 0 0 0.619607843 0 0 0 0.3 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" filter="url(#a)" transform="translate(3)">
+    <path fill="#FFF" stroke="#FAFAFA" d="M.5.5h291v331H.5z"/>
+    <path fill="#FFF" d="M24 276h244v24H24z"/>
+    <text fill="#9E9E9E" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="15" font-weight="bold" transform="translate(24 276)">
+      <tspan x="90.1" y="15">– Quote Author Name</tspan>
+    </text>
+    <text fill="#424242" font-family="HelveticaNeue-MediumItalic, Helvetica Neue" font-size="32" font-style="italic" font-weight="500">
+      <tspan x="48" y="95">Nulla tincidunt </tspan> <tspan x="48" y="137">nulla dolor, a </tspan> <tspan x="48" y="179">euismod lacus </tspan> <tspan x="48" y="221">consectetur </tspan> <tspan x="48" y="263">nec.</tspan>
+    </text>
+    <text fill="#424242" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="56" font-weight="bold">
+      <tspan x="16" y="87">“</tspan>
+    </text>
+  </g>
+</svg>

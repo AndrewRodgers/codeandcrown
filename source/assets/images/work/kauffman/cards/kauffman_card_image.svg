@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="298" height="340" viewBox="0 0 298 340">
+  <defs>
+    <path id="b" d="M0 0h292v332H0z"/>
+    <filter id="a" width="104.8%" height="104.5%" x="-2.4%" y="-1.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.258823529 0 0 0 0 0.258823529 0 0 0 0 0.258823529 0 0 0 0.2 0"/>
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter2"/>
+      <feOffset dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
+      <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
+      <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"/>
+      <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0.980392157 0 0 0 0 0.980392157 0 0 0 0 0.980392157 0 0 0 0.3 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+    <path id="c" d="M9 11.557V9.333s-3.78-.114-7 3.334c1.513-6.588 7-7.78 7-7.78v-2.22l5 4.425-5 4.465z"/>
+    <path id="e" d="M13.344 11.323v-8H2.656v9.344L4 11.323h9.344zm0-9.313a1.32 1.32 0 0 1 1.312 1.313v8c0 .719-.594 1.344-1.312 1.344H4l-2.656 2.656v-12A1.32 1.32 0 0 1 2.656 2.01h10.688z"/>
+    <path id="g" d="M8.063 12.375c3.187-2.875 5.28-4.781 5.28-6.719 0-1.343-1-2.312-2.343-2.312-1.031 0-2.031.656-2.375 1.562h-1.25C7.031 4 6.031 3.344 5 3.344c-1.344 0-2.344.969-2.344 2.312 0 1.938 2.094 3.844 5.281 6.719l.063.063.063-.063zM11 2c2.063 0 3.656 1.594 3.656 3.656 0 2.532-2.25 4.563-5.687 7.688L8 14.219l-.969-.844C3.594 10.25 1.344 8.187 1.344 5.656 1.344 3.594 2.937 2 5 2c1.156 0 2.281.563 3 1.406C8.719 2.562 9.844 2 11 2z"/>
+    <path id="i" d="M8.484 12.516l-3.468 4.5h13.968l-4.5-6-3.468 4.5-2.532-3zM23.016 18c0 1.078-.938 2.016-2.016 2.016H3C1.922 20.016.984 19.078.984 18V6c0-1.078.938-2.016 2.016-2.016h18c1.078 0 2.016.938 2.016 2.016v12z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(3 2)">
+      <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+      <path fill="#FAFAFA" stroke="#E0E0E0" stroke-linejoin="square" d="M.5.5v331h291V.5H.5z"/>
+    </g>
+    <path fill="#FFF" stroke="#E0E0E0" d="M3.5 302.5v31h291v-31H3.5z"/>
+    <text fill="#757575" font-family="HelveticaNeue, Helvetica Neue" font-size="13" transform="translate(245 310)">
+      <tspan x="20" y="12">332</tspan>
+    </text>
+    <g transform="translate(245 310)">
+      <mask id="d" fill="#fff">
+        <use xlink:href="#c"/>
+      </mask>
+      <use fill="#000" fill-rule="nonzero" xlink:href="#c"/>
+      <g fill="#9E9E9E" mask="url(#d)">
+        <path d="M0 0h16v16H0z"/>
+      </g>
+    </g>
+    <text fill="#757575" font-family="HelveticaNeue, Helvetica Neue" font-size="13" transform="translate(128 310)">
+      <tspan x="20" y="12">120</tspan>
+    </text>
+    <g transform="translate(128 310)">
+      <mask id="f" fill="#fff">
+        <use xlink:href="#e"/>
+      </mask>
+      <use fill="#000" fill-rule="nonzero" xlink:href="#e"/>
+      <g fill="#9E9E9E" mask="url(#f)">
+        <path d="M0 0h16v16H0z"/>
+      </g>
+    </g>
+    <g>
+      <text fill="#757575" font-family="HelveticaNeue, Helvetica Neue" font-size="13" transform="translate(11 310)">
+        <tspan x="20" y="12">332</tspan>
+      </text>
+      <g transform="translate(11 310)">
+        <mask id="h" fill="#fff">
+          <use xlink:href="#g"/>
+        </mask>
+        <use fill="#000" fill-rule="nonzero" xlink:href="#g"/>
+        <g fill="#9E9E9E" mask="url(#h)">
+          <path d="M0 0h16v16H0z"/>
+        </g>
+      </g>
+    </g>
+    <text fill="#9E9E9E" font-family="HelveticaNeue, Helvetica Neue" font-size="15" transform="translate(3 182)">
+      <tspan x="37" y="84">Author Name</tspan>
+    </text>
+    <text fill="#9E9E9E" font-family="HelveticaNeue, Helvetica Neue" font-size="15" transform="translate(3 182)">
+      <tspan x="16.302" y="84">by</tspan>
+    </text>
+    <text fill="#424242" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="18" font-weight="bold" transform="translate(3 182)">
+      <tspan x="16" y="18">Media Card w/ title below </tspan> <tspan x="16" y="40">thumbnail image along with </tspan> <tspan x="16" y="62">on-hover action-bar.</tspan>
+    </text>
+    <g>
+      <path fill="#F5F5F5" stroke="#E0E0E0" d="M3.5 2.5h291v163H3.5z"/>
+      <g transform="translate(137 72.355)">
+        <mask id="j" fill="#fff">
+          <use xlink:href="#i"/>
+        </mask>
+        <use fill="#9E9E9E" fill-rule="nonzero" xlink:href="#i"/>
+        <g fill="#9E9E9E" mask="url(#j)">
+          <path d="M0 0h32v32H0z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="296" height="336" viewBox="0 0 296 336">
+  <defs>
+    <filter id="a" width="105.5%" height="104.8%" x="-2.7%" y="-2.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.619607843 0 0 0 0 0.619607843 0 0 0 0 0.619607843 0 0 0 0.3 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <path id="b" d="M16 41h260v66H16z"/>
+    <path id="d" d="M8.484 12.516l-3.468 4.5h13.968l-4.5-6-3.468 4.5-2.532-3zM23.016 18c0 1.078-.938 2.016-2.016 2.016H3C1.922 20.016.984 19.078.984 18V6c0-1.078.938-2.016 2.016-2.016h18c1.078 0 2.016.938 2.016 2.016v12z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g filter="url(#a)" transform="translate(2)">
+      <g transform="translate(0 164)">
+        <path fill="#FAFAFA" d="M0 0h292v168H0z"/>
+        <g fill="#9E9E9E" font-family="HelveticaNeue, Helvetica Neue" font-size="15">
+          <text transform="translate(16 112)">
+            <tspan x="21" y="14">Jane Doe</tspan>
+          </text>
+          <text transform="translate(16 112)">
+            <tspan x=".302" y="14">by</tspan>
+          </text>
+        </g>
+        <mask id="c" fill="#fff">
+          <use xlink:href="#b"/>
+        </mask>
+        <use fill="#FFF" fill-opacity="0" xlink:href="#b"/>
+        <text fill="#424242" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="18" font-weight="bold" mask="url(#c)">
+          <tspan x="16" y="60">Vestibulum quam orci, </tspan> <tspan x="16" y="82">porttitor in nisl aliquam, </tspan> <tspan x="16" y="104">placerat gravida ligula. </tspan> <tspan x="16" y="126">Quisque sed malesuada velit.</tspan>
+        </text>
+      </g>
+      <path fill="#F5F5F5" stroke="#E0E0E0" d="M.5.5v163h291V.5H.5z"/>
+      <g transform="translate(134 70.355)">
+        <mask id="e" fill="#fff">
+          <use xlink:href="#d"/>
+        </mask>
+        <use fill="#9E9E9E" fill-rule="nonzero" xlink:href="#d"/>
+        <g fill="#9E9E9E" mask="url(#e)">
+          <path d="M0 0h32v32H0z"/>
+        </g>
+      </g>
+    </g>
+    <path fill="#929292" d="M60 144h175v37H60z"/>
+    <text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="18" font-weight="bold" transform="translate(2)">
+      <tspan x="105.18" y="168">RETHINK</tspan>
+    </text>
+  </g>
+</svg>

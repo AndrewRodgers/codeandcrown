@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="296" height="336" viewBox="0 0 296 336">
+  <defs>
+    <filter id="a" width="105.5%" height="104.8%" x="-2.7%" y="-2.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.619607843 0 0 0 0 0.619607843 0 0 0 0 0.619607843 0 0 0 0.3 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" filter="url(#a)" transform="translate(2)">
+    <path fill="#EEE" stroke="#9E9E9E" d="M.5.5v323h291V.5H.5z"/>
+    <path fill="#FFF" stroke="#EEE" d="M72.5 295.5v36h148v-36h-148z"/>
+    <text fill="#424242" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" transform="translate(72 295)">
+      <tspan x="20.306" y="24">THE PLATFORM</tspan>
+    </text>
+    <text fill="#424242" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="21.6" font-weight="bold">
+      <tspan x="16" y="37">Cross-promotion card </tspan> <tspan x="16" y="65">used to highlight content </tspan> <tspan x="16" y="93">from across the site.</tspan>
+    </text>
+  </g>
+</svg>

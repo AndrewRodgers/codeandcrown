@@ -1,0 +1,40 @@
+// typography
+// @fontface{
+//     font-family: "Raleway-Regular";
+//     src: url('http://192.168.1.106:5757/assets/fonts/Raleway-Regular') format("truetype");
+// }
+//
+// @fontface{
+//     font-family: "SourceSansPro-Regular";
+//     src: url("http://192.168.1.106:5757/assets/SourceSansPro-Regular.ttf") format("truetype");
+// }
+//
+// h1{
+//     font-family: "Raleway-Regular";
+//     color: #212121;
+// }
+
+p, ul {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #616161;
+    font-size: rem(16px);
+    letter-spacing: rem(0.47px);
+    line-height: rem(24px);
+    margin: 0 0 rem(24px);
+    max-width: rem(548px);
+}
+
+ul {
+    padding-left: rem(32px);
+}
+
+a:link,
+a:visited {
+    color: $blue-light;
+}
+
+a:active,
+a:hover {
+    color: $blue-dark;
+}

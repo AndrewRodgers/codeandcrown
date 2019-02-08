@@ -1,0 +1,17 @@
+// layout
+
+// box sizing reset
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    padding: rem(64px) 0;
+
+    @media (max-width: 460px){
+        padding-top: rem(32px);
+    }
+}

@@ -1,0 +1,76 @@
+
+<svg width="186px" height="176px" viewBox="0 0 186 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Current Redesign thumbnail</title>
+    <desc>A decrotive image thumbnail for the Currents Redesign project</desc>
+    <defs>
+        <linearGradient x1="50%" y1="99.9999654%" x2="40.3225806%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#4B7FB8" offset="0%"></stop>
+            <stop stop-color="#4F82BA" offset="32.98%"></stop>
+            <stop stop-color="#83B0E0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M106.533462,167.792252 C50.0132971,178.191939 -18.1010012,119.123776 4.41555565,79.1450251 C27.0306865,39.1750269 140.16959,18.3844057 174.22674,47.918487 C208.283889,77.4525683 163.152201,157.401318 106.533462,167.792252 Z" id="path-2"></path>
+        <rect id="path-4" x="33" y="63" width="127" height="113"></rect>
+        <filter x="-7.9%" y="-8.0%" width="115.7%" height="118.6%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter3" in2="SourceAlpha" operator="out" result="shadowBlurOuter3"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M8,14.2186667 L7.03133333,13.3433333 C3.594,10.218 1.344,8.18733333 1.344,5.656 C1.344,3.59333333 2.938,2 5,2 C6.156,2 7.28133333,2.56266667 8,3.406 C8.71866667,2.562 9.844,2 11,2 C13.0626667,2 14.656,3.594 14.656,5.656 C14.656,8.18733333 12.406,10.25 8.96866667,13.3746667 L8,14.2186667 Z" id="path-6"></path>
+        <path d="M13.0766667,2.12266667 C10.674,1.95866667 5.32266667,1.95933333 2.92333333,2.12266667 C0.325333333,2.3 0.0193333333,3.86933333 -1.77635684e-15,8 C0.0193333333,12.1233333 0.322666667,13.6993333 2.92333333,13.8773333 C5.32333333,14.0406667 10.674,14.0413333 13.0766667,13.8773333 C15.6746667,13.7 15.9806667,12.1306667 16,8 C15.9806667,3.87666667 15.6773333,2.30066667 13.0766667,2.12266667 Z M6,10.6666667 L6,5.33333333 L11.3333333,7.99533333 L6,10.6666667 Z" id="path-8"></path>
+    </defs>
+    <g id="currents_project_card">
+        <path d="M106.533462,174.792252 C50.0132971,185.191939 -18.1010012,126.123776 4.41555565,86.1450251 C27.0306865,46.1750269 140.16959,25.3844057 174.22674,54.918487 C208.283889,84.4525683 163.152201,164.401318 106.533462,174.792252 Z" class="project_card-blob" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+        <g class="project_card-content">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <g class="project_card-mask" fill-rule="nonzero"></g>
+            <g class="project_card-bg" mask="url(#mask-3)">
+                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                <rect stroke="#BDBDBD" stroke-width="1" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="33.5" y="63.5" width="126" height="112"></rect>
+            </g>
+            <g id="✱-/-Icons-/-Favorited" mask="url(#mask-3)">
+                <g transform="translate(41.000000, 139.000000)">
+                    <mask id="mask-7" fill="white">
+                        <use xlink:href="#path-6"></use>
+                    </mask>
+                    <g id="icons/favorited" stroke="none" fill="none" fill-rule="nonzero"></g>
+                    <g id="✱-/-Color-/-Solid-/-Gray-/-500---#9E9E9E" stroke="none" fill="none" mask="url(#mask-7)" fill-rule="evenodd">
+                        <rect id="Color/Solid/Gray/500---#9E9E9E" fill="#9E9E9E" x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+            <path d="M41,91 L137,91 L137,99 L41,99 L41,91 Z M41,103 L137,103 L137,111 L41,111 L41,103 Z M41,115 L121,115 L121,123 L41,123 L41,115 Z M41,79 L105,79 L105,87 L41,87 L41,79 Z" class="project_card-copy" fill="#EEEEEE" mask="url(#mask-3)"></path>
+            <g class="project_card-media" transform="translate(33.000000, 0.000000)">
+                <g id="✱-/-Color-/-Stroke-/-Gray-/-050-/-400" fill="#FAFAFA" stroke="#BDBDBD">
+                    <rect id="Color/Stroke/Gray/050/400" x="0.5" y="0.5" width="126" height="70"></rect>
+                </g>
+                <g id="✱-/-Icons-/-Youtube-Alt-Solo" transform="translate(56.000000, 28.000000)">
+                    <mask id="mask-9" fill="white">
+                        <use xlink:href="#path-8"></use>
+                    </mask>
+                    <g id="icons/youtube-alt-solo" fill-rule="nonzero"></g>
+                    <g id="✱-/-Color-/-Solid-/-Gray-/-500---#9E9E9E" mask="url(#mask-9)" fill="#9E9E9E" fill-rule="evenodd">
+                        <rect id="Color/Solid/Gray/500---#9E9E9E" x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

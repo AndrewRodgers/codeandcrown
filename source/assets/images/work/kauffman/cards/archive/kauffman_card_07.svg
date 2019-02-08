@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="596" height="336" viewBox="0 0 596 336">
+  <g fill="none" fill-rule="evenodd">
+    <path fill="#F5F5F5" stroke="#E0E0E0" d="M2.5.5v331h591V.5H2.5z"/>
+    <path fill="#EEE" stroke="#9E9E9E" d="M452.5 260.5v37h125v-37h-125z"/>
+    <text fill="#424242" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" transform="translate(452 260)">
+      <tspan x="20.097" y="24">READ MORE</tspan>
+    </text>
+    <g>
+      <path fill="none" fill-opacity="0" stroke="#EEE" d="M187.5 262.5v37h142v-37h-142z"/>
+      <text fill="#424242" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" transform="translate(187 262)">
+        <tspan x="20.288" y="24">VIEW RESULTS</tspan>
+      </text>
+      <g>
+        <path fill="#FFF" stroke="#EEE" d="M18.5 262.5v37h160v-37h-160z"/>
+        <text fill="#424242" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" transform="translate(18 262)">
+          <tspan x="20.482" y="24">SUBMIT ANSWER</tspan>
+        </text>
+      </g>
+    </g>
+    <g>
+      <g transform="translate(18 182)">
+        <circle cx="8" cy="8" r="7.5" fill="#FFF" stroke="#BDBDBD"/>
+        <circle cx="8" cy="8" r="4" fill="#9E9E9E"/>
+      </g>
+      <text fill="#424242" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="18" font-weight="bold" transform="translate(18 178)">
+        <tspan x="24" y="18">The people in the middle, making steady progress</tspan>
+      </text>
+      <g>
+        <circle cx="8" cy="8" r="7.5" fill="#FFF" stroke="#BDBDBD" transform="translate(18 142.5)"/>
+        <text fill="#424242" font-family="HelveticaNeue, Helvetica Neue" font-size="18" transform="translate(18 139)">
+          <tspan x="24" y="16.5">The people on the extremes, pushing the envelope</tspan>
+        </text>
+      </g>
+    </g>
+    <g>
+      <text fill="#424242" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="32" font-weight="bold" transform="translate(18 16)">
+        <tspan x="0" y="55">To advance our society, which type </tspan> <tspan x="0" y="97">of people are most important?</tspan>
+      </text>
+      <text fill="#9E9E9E" font-family="HelveticaNeue, Helvetica Neue" font-size="15" transform="translate(18 16)">
+        <tspan x="0" y="14.784">Survey</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

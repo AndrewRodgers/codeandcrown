@@ -1,0 +1,108 @@
+// galleries
+
+.gallery {
+    position: relative;
+    width: 100%;
+    margin: 0 auto rem(48px);
+    padding: 0;
+    border-left: 1px solid $grey-200;
+    border-right: 1px solid $grey-200;
+
+    &:before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: rem(16px);
+        opacity: 0.05;
+        background: linear-gradient(to right, rgba(66,66,66,1) 0%,rgba(255,255,255,0) 30%);
+        z-index: 100;
+    }
+    &:after{
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: rem(16px);
+        opacity: 0.05;
+        background: linear-gradient(to left, rgba(66,66,66,1) 0%,rgba(255,255,255,0) 30%);
+        z-index: 100;
+    }
+}
+
+.gallery--screens {
+    height: rem(1200px);
+
+    @media (max-width: 675px){
+        height: rem(600px);
+    }
+}
+
+.gallery_item {
+    width: 100%;
+    transform: scale(0.88);
+    transition: transform 0.32s ease-in-out;
+
+    &.is-selected{
+        transform: scale(1);
+    }
+
+    img{
+        display: block;
+        width: 100%;
+
+        @media (max-width: 675px){
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+}
+
+.gallery_item--card {
+    width: rem(298px);
+}
+
+.gallery_item--screen {
+    width: rem(674px);
+    transform: scale(0.96);
+    margin: 0 rem(12px);
+
+    @media (max-width: 675px) {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.gallery-caption {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: rem(12px);
+    color: #bdbdbd;
+    letter-spacing: rem(2px);
+    line-height: rem(16px);
+    text-transform: uppercase;
+    max-width: none;
+    margin-left: 25%;
+    margin-bottom: rem(64px);
+    padding-left: rem(16px);
+    padding-top: rem(8px);
+    border-left: 1px solid $grey-200;
+    border-top: 1px solid $grey-200;
+
+    @media (max-width: 675px){
+        margin-left: 0;
+    }
+}
+
+.flickity-page-dots {
+    .dot:hover {
+        background: $blue-light;
+        opacity: 0.5;
+    }
+
+    .dot.is-selected {
+        background: $blue-light;
+    }
+}

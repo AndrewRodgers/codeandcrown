@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="296" height="172" viewBox="0 0 296 172">
+  <defs>
+    <filter id="a" width="105.5%" height="109.5%" x="-2.7%" y="-4.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.619607843 0 0 0 0 0.619607843 0 0 0 0 0.619607843 0 0 0 0.3 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" filter="url(#a)" transform="translate(2)">
+    <path fill="#F5F5F5" stroke="#E0E0E0" d="M.5.5v167h291V.5H.5z"/>
+    <text fill="#9E9E9E" font-family="HelveticaNeue, Helvetica Neue" font-size="15">
+      <tspan x="16" y="150">Content Type - Personalized</tspan>
+    </text>
+    <g fill="#9E9E9E" font-family="HelveticaNeue, Helvetica Neue" font-size="15">
+      <text transform="translate(16 84)">
+        <tspan x="21" y="13.5">Jane Doe</tspan>
+      </text>
+      <text transform="translate(16 84)">
+        <tspan x=".302" y="13.5">by</tspan>
+      </text>
+    </g>
+    <text fill="#424242" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="17" font-weight="bold" transform="translate(16 16)">
+      <tspan x="0" y="17">Duis rhoncus velit nec est </tspan> <tspan x="0" y="38">condimentum feugiat. Donec </tspan> <tspan x="0" y="59">aliquam augue nec gravida</tspan>
+    </text>
+  </g>
+</svg>

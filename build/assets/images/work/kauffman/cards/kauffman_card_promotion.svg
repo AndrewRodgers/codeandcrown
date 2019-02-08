@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="298" height="340" viewBox="0 0 298 340">
+  <defs>
+    <path id="b" d="M0 0h292v332H0z"/>
+    <filter id="a" width="104.8%" height="104.5%" x="-2.4%" y="-1.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.258823529 0 0 0 0 0.258823529 0 0 0 0 0.258823529 0 0 0 0.2 0"/>
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter2"/>
+      <feOffset dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
+      <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
+      <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"/>
+      <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0.980392157 0 0 0 0 0.980392157 0 0 0 0 0.980392157 0 0 0 0.3 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+    <path id="d" d="M1 315h290v16H1z"/>
+    <filter id="c" width="102.4%" height="143.8%" x="-1.2%" y="-28.1%" filterUnits="objectBoundingBox">
+      <feOffset dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.258823529 0 0 0 0 0.258823529 0 0 0 0 0.258823529 0 0 0 0.1 0"/>
+    </filter>
+    <path id="f" d="M3 0h119a3 3 0 0 1 3 3v26a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V3a3 3 0 0 1 3-3z"/>
+    <filter id="e" width="111.2%" height="146.9%" x="-5.6%" y="-18.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.258823529 0 0 0 0 0.258823529 0 0 0 0 0.258823529 0 0 0 0.2 0"/>
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter2"/>
+      <feOffset dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
+      <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
+      <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"/>
+      <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0.980392157 0 0 0 0 0.980392157 0 0 0 0 0.980392157 0 0 0 0.3 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(3 2)">
+      <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+      <path fill="#FFF" stroke="#E0E0E0" stroke-linejoin="square" d="M.5.5v331h291V.5H.5z"/>
+    </g>
+    <g transform="translate(3 2)">
+      <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+      <use fill="#F5F5F5" xlink:href="#d"/>
+    </g>
+    <text fill="#757575" font-family="HelveticaNeue, Helvetica Neue" font-size="15" transform="translate(19 26)">
+      <tspan x="0" y="123">Description of value proposition along </tspan> <tspan x="0" y="143">with context-setting for what this </tspan> <tspan x="0" y="163">promotion is featuring and the desired </tspan> <tspan x="0" y="183">outcome for the end-user.</tspan>
+    </text>
+    <text fill="#424242" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="18" font-weight="bold" transform="translate(19 26)">
+      <tspan x="0" y="59">Promotional Card w/ overlay </tspan> <tspan x="0" y="81">title and call-to-action.</tspan>
+    </text>
+    <text fill="#424242" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="21" font-weight="bold" transform="translate(19 26)">
+      <tspan x="0" y="20">Promotional Card</tspan>
+    </text>
+    <g>
+      <g transform="translate(87 255)">
+        <use fill="#000" filter="url(#e)" xlink:href="#f"/>
+        <path fill="#BDBDBD" stroke="#BDBDBD" stroke-linejoin="square" d="M3 .5A2.5 2.5 0 0 0 .5 3v26A2.5 2.5 0 0 0 3 31.5h119a2.5 2.5 0 0 0 2.5-2.5V3A2.5 2.5 0 0 0 122 .5H3z"/>
+      </g>
+      <text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="11" font-weight="bold" letter-spacing="1.833" transform="translate(87 255)">
+        <tspan x="12" y="20">EXPLORE NOW</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

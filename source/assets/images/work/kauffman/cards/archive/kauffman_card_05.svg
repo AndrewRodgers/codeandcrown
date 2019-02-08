@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="296" height="336" viewBox="0 0 296 336">
+  <defs>
+    <path id="a" d="M10 17.773L8.79 16.68c-4.298-3.907-7.11-6.446-7.11-9.61 0-2.578 1.992-4.57 4.57-4.57 1.445 0 2.852.703 3.75 1.758.898-1.055 2.305-1.758 3.75-1.758 2.578 0 4.57 1.992 4.57 4.57 0 3.164-2.812 5.742-7.11 9.649L10 17.773z"/>
+    <path id="c" d="M13.32 16.68v-3.36h3.36v3.36h-3.36zm0-5V8.32h3.36v3.36h-3.36zm-5-5V3.32h3.36v3.36H8.32zm5-3.36h3.36v3.36h-3.36V3.32zm-5 8.36V8.32h3.36v3.36H8.32zm-5 0V8.32h3.36v3.36H3.32zm0 5v-3.36h3.36v3.36H3.32zm5 0v-3.36h3.36v3.36H8.32zm-5-10V3.32h3.36v3.36H3.32z"/>
+    <path id="e" d="M10 17.773L8.79 16.68c-4.298-3.907-7.11-6.446-7.11-9.61 0-2.578 1.992-4.57 4.57-4.57 1.445 0 2.852.703 3.75 1.758.898-1.055 2.305-1.758 3.75-1.758 2.578 0 4.57 1.992 4.57 4.57 0 3.164-2.812 5.742-7.11 9.649L10 17.773z"/>
+    <path id="g" d="M13.32 16.68v-3.36h3.36v3.36h-3.36zm0-5V8.32h3.36v3.36h-3.36zm-5-5V3.32h3.36v3.36H8.32zm5-3.36h3.36v3.36h-3.36V3.32zm-5 8.36V8.32h3.36v3.36H8.32zm-5 0V8.32h3.36v3.36H3.32zm0 5v-3.36h3.36v3.36H3.32zm5 0v-3.36h3.36v3.36H8.32zm-5-10V3.32h3.36v3.36H3.32z"/>
+    <path id="i" d="M10 17.773L8.79 16.68c-4.298-3.907-7.11-6.446-7.11-9.61 0-2.578 1.992-4.57 4.57-4.57 1.445 0 2.852.703 3.75 1.758.898-1.055 2.305-1.758 3.75-1.758 2.578 0 4.57 1.992 4.57 4.57 0 3.164-2.812 5.742-7.11 9.649L10 17.773z"/>
+    <path id="k" d="M13.32 16.68v-3.36h3.36v3.36h-3.36zm0-5V8.32h3.36v3.36h-3.36zm-5-5V3.32h3.36v3.36H8.32zm5-3.36h3.36v3.36h-3.36V3.32zm-5 8.36V8.32h3.36v3.36H8.32zm-5 0V8.32h3.36v3.36H3.32zm0 5v-3.36h3.36v3.36H3.32zm5 0v-3.36h3.36v3.36H8.32zm-5-10V3.32h3.36v3.36H3.32z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="#FFF" stroke="#EEE" d="M2.5.5v331h291V.5H2.5z"/>
+    <path fill="#F5F5F5" stroke="#E0E0E0" d="M18.5 264.5v35h259v-35h-259z"/>
+    <text fill="#424242" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13" font-weight="bold" transform="translate(18 264)">
+      <tspan x="73.547" y="22.647">VIEW ALL TOPICS</tspan>
+    </text>
+    <g>
+      <path fill="#FFF" d="M18 197h260v59H18z"/>
+      <g transform="translate(224 207)">
+        <mask id="b" fill="#fff">
+          <use xlink:href="#a"/>
+        </mask>
+        <use fill="#000" fill-rule="nonzero" xlink:href="#a"/>
+        <g fill="#9E9E9E" mask="url(#b)">
+          <path d="M0 0h20v20H0z"/>
+        </g>
+      </g>
+      <text fill="#757575" font-family="HelveticaNeue, Helvetica Neue" font-size="13" transform="translate(224 205)">
+        <tspan x="24.316" y="16">220</tspan>
+      </text>
+      <g transform="translate(174 207)">
+        <mask id="d" fill="#fff">
+          <use xlink:href="#c"/>
+        </mask>
+        <use fill="#000" fill-rule="nonzero" xlink:href="#c"/>
+        <g fill="#9E9E9E" mask="url(#d)">
+          <path d="M0 0h20v20H0z"/>
+        </g>
+      </g>
+      <text fill="#757575" font-family="HelveticaNeue, Helvetica Neue" font-size="13" transform="translate(174 205)">
+        <tspan x="27.544" y="16">22</tspan>
+      </text>
+      <text fill="#424242" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(18 197)">
+        <tspan x="0" y="21">Corporate Social </tspan> <tspan x="0" y="40">Responsibility</tspan>
+      </text>
+      <g fill="#F5F5F5" stroke="#E0E0E0">
+        <path d="M148 197.5h130l-.5-.5v1l.5-.5H148zm0 0H18l.5.5v-1l-.5.5h130z"/>
+      </g>
+      <g>
+        <path fill="#FFF" d="M18 150h260v43H18z"/>
+        <g transform="translate(224 160)">
+          <mask id="f" fill="#fff">
+            <use xlink:href="#e"/>
+          </mask>
+          <use fill="#000" fill-rule="nonzero" xlink:href="#e"/>
+          <g fill="#9E9E9E" mask="url(#f)">
+            <path d="M0 0h20v20H0z"/>
+          </g>
+        </g>
+        <text fill="#757575" font-family="HelveticaNeue, Helvetica Neue" font-size="13" transform="translate(224 158)">
+          <tspan x="24.316" y="16">220</tspan>
+        </text>
+        <g transform="translate(174 160)">
+          <mask id="h" fill="#fff">
+            <use xlink:href="#g"/>
+          </mask>
+          <use fill="#000" fill-rule="nonzero" xlink:href="#g"/>
+          <g fill="#9E9E9E" mask="url(#h)">
+            <path d="M0 0h20v20H0z"/>
+          </g>
+        </g>
+        <text fill="#757575" font-family="HelveticaNeue, Helvetica Neue" font-size="13" transform="translate(174 158)">
+          <tspan x="27.544" y="16">22</tspan>
+        </text>
+        <text fill="#424242" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(18 150)">
+          <tspan x="0" y="23">Angel Investors</tspan>
+        </text>
+        <g fill="#F5F5F5" stroke="#E0E0E0">
+          <path d="M148 150.5h130l-.5-.5v1l.5-.5H148zm0 0H18l.5.5v-1l-.5.5h130z"/>
+        </g>
+      </g>
+      <g>
+        <path fill="#FFF" d="M18 88h260v58H18z"/>
+        <g transform="translate(224 98)">
+          <mask id="j" fill="#fff">
+            <use xlink:href="#i"/>
+          </mask>
+          <use fill="#000" fill-rule="nonzero" xlink:href="#i"/>
+          <g fill="#9E9E9E" mask="url(#j)">
+            <path d="M0 0h20v20H0z"/>
+          </g>
+        </g>
+        <text fill="#757575" font-family="HelveticaNeue, Helvetica Neue" font-size="13" transform="translate(224 96)">
+          <tspan x="24.316" y="16">220</tspan>
+        </text>
+        <g transform="translate(174 98)">
+          <mask id="l" fill="#fff">
+            <use xlink:href="#k"/>
+          </mask>
+          <use fill="#000" fill-rule="nonzero" xlink:href="#k"/>
+          <g fill="#9E9E9E" mask="url(#l)">
+            <path d="M0 0h20v20H0z"/>
+          </g>
+        </g>
+        <text fill="#757575" font-family="HelveticaNeue, Helvetica Neue" font-size="13" transform="translate(174 96)">
+          <tspan x="27.544" y="16">22</tspan>
+        </text>
+        <text fill="#424242" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(18 88)">
+          <tspan x="0" y="21">Business Dynamics </tspan> <tspan x="0" y="40">Statistics</tspan>
+        </text>
+        <g fill="#F5F5F5" stroke="#E0E0E0">
+          <path d="M148 88.5h130l-.5-.5v1l.5-.5H148zm0 0H18l.5.5v-1l-.5.5h130z"/>
+        </g>
+      </g>
+      <text fill="#424242" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="21.6" font-weight="bold" transform="translate(18 32)">
+        <tspan x="0" y="21">Trending Topics</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

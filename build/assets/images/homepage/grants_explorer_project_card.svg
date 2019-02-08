@@ -1,0 +1,81 @@
+
+<svg width="185px" height="145px" viewBox="0 0 185 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Grants Explorer thumbnail</title>
+    <desc>A decrotive image thumbnail for the Grants Explorer project</desc>
+    <defs>
+        <linearGradient x1="50%" y1="99.9999654%" x2="40.3225806%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#4B7FB8" offset="0%"></stop>
+            <stop stop-color="#4F82BA" offset="32.98%"></stop>
+            <stop stop-color="#83B0E0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="99.9999654%" x2="50%" y2="9.23845136e-05%" id="linearGradient-2">
+            <stop stop-color="#4B7FB8" offset="0%"></stop>
+            <stop stop-color="#4F82BA" offset="32.98%"></stop>
+            <stop stop-color="#5C8BBE" offset="67.08%"></stop>
+            <stop stop-color="#6F99C6" offset="100%"></stop>
+        </linearGradient>
+        <path d="M185,75.5685393 C185,111.068539 153.581897,142.5 107.331897,142.5 C61.0818966,142.5 0,111.068539 0,75.5685393 C0,40.0685393 61.0818966,0.5 107.331897,0.5 C153.581897,0.5 185,40.0685393 185,75.5685393 Z" id="path-2"></path>
+        <polygon id="path-5" points="-19.9999929 106.283531 -3.70352396 100.851289 12.592945 104.31634 27 96.5 44 104.5 59 94.5 75 102.5 91 99.5 106 107.5 122 96.5 139 99.5 155 88.5 171 97.5 185 97.0167649 185 151.356497 -20 151.356497"></polygon>
+        <filter x="-5.4%" y="-16.5%" width="110.7%" height="137.2%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter3" in2="SourceAlpha" operator="out" result="shadowBlurOuter3"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-7" points="-19.9999929 91.1551429 -3.70352396 73.5586 11 83.5 27 60.5 44 82.5 59 52.5 75 74.5 91 71.5 106 85.5 122 67.5 139 70.5 155 32.5 171 72.5 190 49.5 185 144.099435 -20 144.099435"></polygon>
+        <filter x="-5.2%" y="-11.9%" width="110.6%" height="123.5%" filterUnits="objectBoundingBox" id="filter-8">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter3"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter3" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter3" in2="SourceAlpha" operator="out" result="shadowBlurOuter3"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+<g id="grants_explorer_project_card">
+    <path d="M185,76.0685393 C185,111.568539 153.581897,143 107.331897,143 C61.0818966,143 0,111.568539 0,76.0685393 C0,40.5685393 61.0818966,1 107.331897,1 C153.581897,1 185,40.5685393 185,76.0685393 Z" id="project_card-blob" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+    <g id="project_card-content">
+        <mask id="mask-3" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <g id="project_card-mask" fill-rule="nonzero"></g>
+        <g id="project_card-graph-lower" style="mix-blend-mode: overlay;" mask="url(#mask-3)">
+            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+            <use stroke="#FFFFFF" stroke-width="2" fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-5"></use>
+        </g>
+        <g id="project_card-graph-middle" style="mix-blend-mode: overlay;" mask="url(#mask-3)">
+            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+            <use stroke="#FFFFFF" stroke-width="2" fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-7"></use>
+        </g>
+        <path d="M11.5,-1.5 L11.5,142.5 L11,142.5 L11,-1.5 L11.5,-1.5 Z M27.5,-1.5 L27.5,142.5 L27,142.5 L27,-1.5 L27.5,-1.5 Z M44.5,-1.5 L44.5,142.5 L44,142.5 L44,-1.5 L44.5,-1.5 Z M59.5,-1.5 L59.5,142.5 L59,142.5 L59,-1.5 L59.5,-1.5 Z M75.5,-1.5 L75.5,142.5 L75,142.5 L75,-1.5 L75.5,-1.5 Z M91.5,-1.5 L91.5,142.5 L91,142.5 L91,-1.5 L91.5,-1.5 Z M106.5,-1.5 L106.5,142.5 L106,142.5 L106,-1.5 L106.5,-1.5 Z M122.5,-1.5 L122.5,142.5 L122,142.5 L122,-1.5 L122.5,-1.5 Z M139.5,-1.5 L139.5,142.5 L139,142.5 L139,-1.5 L139.5,-1.5 Z M155.5,-1.5 L155.5,142.5 L155,142.5 L155,-1.5 L155.5,-1.5 Z M171.5,-1.5 L171.5,142.5 L171,142.5 L171,-1.5 L171.5,-1.5 Z" id="project_card-graph-lines" fill="#FFFFFF" opacity="0.100000001" mask="url(#mask-3)"></path>
+    </g>
+</g>
+</svg>
